@@ -54,13 +54,8 @@ var calculate = function(str) {
     let [ans, pos] = [0, true];
 
     for (num of stack1) {
-        if (num == '-') {
-            pos = false;
-            continue;
-        } else if (num == '+') {
-            pos = true; 
-            continue;
-        }
+        if (num == '-') { pos = false; continue; } 
+        else if (num == '+') { pos = true; continue; }
         ans += pos ? parseFloat(num) : -parseFloat(num);
     }   
     return ans;
