@@ -67,5 +67,7 @@ var calculate = function(str) {
 }
 
 console.log(solution("1+2*(4-3)+(2*6)-(7*2-3)")); //4
+console.log(solution("1+-10")); // -9
+console.log(solution("-2*-2+1")); // 5
 console.log(solution("20-15+5*4/2")); //15
 console.log(solution("1+10/(15-12)")); //4.3333
