@@ -1,10 +1,10 @@
 let i = 0;
 
 function printTasks () { 
-   setTimeout(function () { 
-      console.log(list[i].value, new Date());
-      i++; 
-      if (i < list.length) printTasks(); 
+    setTimeout(function () { 
+        console.log(list[i].value, new Date());
+        i++; 
+        if (i < list.length) printTasks(); 
    }, list[i].time)
 }
 
