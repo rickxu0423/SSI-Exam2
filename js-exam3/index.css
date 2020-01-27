@@ -1,0 +1,134 @@
+.title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 2% auto;
+}
+
+/*progress bar*/
+.progress-bar {
+    display: flex;
+    width: 80%;
+    height: 30px;
+    border: 2px black solid;
+    margin: 0 auto;
+}
+
+.progress-bar .inner {
+    width: 0;
+    background-color: pink;
+    height: 100%;
+}
+
+/*search bar*/
+.search-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.search-container input {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    border: black 2px solid;
+    font-size: 15px;
+}
+
+.search-container .options {
+    width: 100%;
+}
+  
+.search-container .options div {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+    border: 1px solid #ccc;
+    border-top: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.search-container .options div:hover,
+.search-container .options div.selected {
+    text-decoration: underline;
+    background-color: #ddd;
+}
+
+/*autocomplete*/
+.autocomplete-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.autocomplete-container input {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    border: black 2px solid;
+    font-size: 15px;
+}
+
+.autocomplete-container .options {
+    width: 100%;
+}
+  
+.autocomplete-container .options div {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+    border: 1px solid #ccc;
+    border-top: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.autocomplete-container .options div:hover,
+.autocomplete-container .options div.selected {
+    text-decoration: underline;
+    background-color: #ddd;
+}
+
+/*Whack A Mole*/
+
+.mole-container {
+    border: black solid 5px;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background-color: black;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    color: white;
+    
+}
+
+.cell {
+    width: 30.83%;
+    height: 30.83%;
+    line-height: 110px;
+    border: black solid 5px;
+    background-color:  #999;
+    text-align: center;
+    font-size: large;
+
+}
+
+.score-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+    margin-top: -10%;
+}
+
