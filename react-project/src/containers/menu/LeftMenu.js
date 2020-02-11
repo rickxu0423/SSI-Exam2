@@ -117,6 +117,12 @@ export default function LeftMenu(props) {
                     {createChartList()}
                     </List>
                 </Collapse>
+                <ListItem button component={Link} to='/iconography' >
+                    <ListItemIcon>
+                        <HomeIcon />
+                    </ListItemIcon>
+                    <ListItemText primary="Iconography" /> 
+                </ListItem>
             </List>
         </div>
     );

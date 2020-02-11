@@ -11,6 +11,7 @@ import table from './components/table/table';
 import area from './components/area/area';
 import pie from './components/pie/pie';
 import scatterplot from './components/scatterplot/scatterplot';
+import iconography from './components/iconography/iconography';
 
 const BaseRouter = () => (
     <div>
@@ -24,6 +25,7 @@ const BaseRouter = () => (
         <Route exact path ='/area' component={area} />
         <Route exact path ='/pie' component={pie} />
         <Route exact path ='/scatterplot' component={scatterplot} />
+        <Route exact path ='/iconography' component={iconography} />
     </div>
 );
 

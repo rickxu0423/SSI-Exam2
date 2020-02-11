@@ -24,6 +24,28 @@
   border-top: 1px solid #a52a2a;
   border-bottom: 1px solid #a52a2a;
 }
+.icon-paper {
+  background-color: #9fa8da !important;
+  text-align: center !important;
+}
+.icons-display {
+  flex-flow: wrap;
+  display: flex;
+}
+.icon-title {
+  color: #17324d;
+  font-weight: 900;
+  padding-top: 30px;
+}
+.one-icon-display {
+  display: flex;
+  cursor: pointer;
+  margin: 30px;
+}
+.one-icon-display svg {
+  width: 40px;
+  height: 40px;
+}
 .button-style {
   padding-top: 50px;
   padding-bottom: 50px;
