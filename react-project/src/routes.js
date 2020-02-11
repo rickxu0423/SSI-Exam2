@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Redirect } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 import HomeView from './containers/content/HomeView';
 import ColorView from './containers/content/ColorView';
@@ -14,7 +14,6 @@ import scatterplot from './components/scatterplot/scatterplot';
 
 const BaseRouter = () => (
     <div>
-        <Redirect exact from="/" to="/home" />
         <Route exact path ='/home' component={HomeView} />
         <Route exact path ='/color' component={ColorView} />
         <Route exact path ='/avatar' component={avatar} />
