@@ -1,0 +1,2 @@
+export const SHOW_LEFT_MENU = 'SHOW_LEFT_MENU';
+export const CLOSE_LEFT_MENU = 'CLOSE_LEFT_MENU';
