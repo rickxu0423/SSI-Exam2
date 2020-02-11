@@ -97,7 +97,7 @@ function table(props) {
 
     return(
       <div>
-          <SimpleTab data={['Chips', output, usage]} />
+          <SimpleTab data={['Table', output, usage]} />
       </div>
     );
 }

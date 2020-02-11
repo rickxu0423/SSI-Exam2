@@ -1,4 +1,8 @@
 @charset "UTF-8";
+.area-display {
+  justify-content: center;
+  display: flex;
+}
 .avatar-container {
   display: flex;
   flex-direction: row;
@@ -31,6 +35,15 @@
   color: #fff;
   margin: auto;
 }
+.pie-display {
+  justify-content: center;
+  display: flex;
+  margin: auto;
+}
+.scatterplot-display {
+  display: flex;
+  justify-content: center;
+}
 .table-title {
   display: flex;
   flex-direction: column;
@@ -46,12 +59,29 @@
   height: 700px;
   margin-bottom: 30px;
 }
+.home {
+  background-color: #9fa8da !important;
+  border-radius: 25px;
+  overflow: auto;
+}
+.text {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  font-size: 10px;
+  color: #000;
+}
 .root .app-bar .tool-bar {
   display: flex;
   flex-direction: row;
 }
 .root .app-bar .tool-bar .login {
   margin-left: auto;
+}
+.title {
+  text-decoration: none;
+  color: #fff;
 }
 .left-menu-container {
   margin-top: 2%;

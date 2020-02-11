@@ -58,8 +58,8 @@ export default function LeftMenu(props) {
     }
 
     function createChartList() {
-        let cName = ["Bar", "Stacked Bar", "Area", "Line", "Pie", "Scatterplot"]
-        let routes = ['/bar', '/stackedbar', 'area', 'line', 'pie', 'scatterplot']
+        let cName = ["Area", "Pie", "Scatterplot"]
+        let routes = ['area', 'pie', 'scatterplot']
         let cList = [];
         for(let i = 0; i < cName.length; i++) {
             cList.push(
